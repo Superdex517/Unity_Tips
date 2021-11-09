@@ -10,21 +10,13 @@ ex)
 // #
 // # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
 // #
-
 // LFSTEst/[Ll]ibrary/
-
 // LFSTEst/[Tt]emp/
-
 // LFSTEst/[Oo]bj/
-
 // LFSTEst/[Bb]uild/
-
 // LFSTEst/[Bb]uilds/
-
 // LFSTEst/[Ll]ogs/
-
 // LFSTEst/[Mm]emoryCaptures/
-
 
 // # Asset meta data should only be ignored when the corresponding asset is also ignored
 // !LFSTEst/[Aa]ssets/**/*.meta
