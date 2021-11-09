@@ -96,5 +96,4 @@ LFSTEst/[Aa]ssets/Plugins/Editor/JetBrains*
 *.reason filter=lfs diff=lfs merge=lfs -text
 *.lxo filter=lfs diff=lfs merge=lfs -text
 ```
-(주석되어있는 부분 제거하고 사용하면 됨)
 
