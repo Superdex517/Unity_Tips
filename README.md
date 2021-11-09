@@ -2,7 +2,7 @@
 
 
 
-## <깃허브 커밋 시 CRLF LF 관련 오류>
+#### <깃허브 커밋 시 CRLF LF 관련 오류>
 .gitignore 파일에 프로젝트명을 붙여주면 됨
 
 ```
@@ -30,7 +30,7 @@ LFSTEst/[Aa]ssets/Plugins/Editor/JetBrains*
 ```
 
 
-## <LFS관련>
+#### <LFS관련>
 100mb 이상 큰 파일은 git lfs사용해야함
 
 1. git lfs install (깃 초기화)
