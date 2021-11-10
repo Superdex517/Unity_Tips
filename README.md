@@ -30,7 +30,7 @@ LFSTEst/[Aa]ssets/Plugins/Editor/JetBrains*
 ```
 
 
-####<충돌관련>
+#### <충돌관련>
 shadercompiler.exe 관련되서 푸쉬할때 에러가 나는 경우가 있다.
 프로젝트 경로에 Log 파일에 로그가 쌓이는데 여기서 충돌이 나는것.
 
