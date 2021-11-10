@@ -30,6 +30,17 @@ LFSTEst/[Aa]ssets/Plugins/Editor/JetBrains*
 ```
 
 
+####<충돌관련>
+shadercompiler.exe 관련되서 푸쉬할때 에러가 나는 경우가 있다.
+프로젝트 경로에 Log 파일에 로그가 쌓이는데 여기서 충돌이 나는것.
+
+.gitignore 에
+```
+**/[Ll]ogs/
+```
+를 추가하여 로그 파일을 ignore해주면 문제 해결됨
+
+
 #### <LFS관련>
 100mb 이상 큰 파일은 git lfs사용해야함
 
