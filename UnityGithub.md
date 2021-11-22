@@ -109,7 +109,7 @@ shadercompiler.exe 관련되서 푸쉬할때 에러가 나는 경우가 있다.
 *.lxo filter=lfs diff=lfs merge=lfs -text
 ```
 
-#### .DS_Store
+#### <.DS_Store>
 맥북에서 .DS_Store라는 파일이 나오는 경우가 있다
 .DS_Store는 Desktop Services Store의 약자로, 애플에서 정의한 파일 포맷
 
