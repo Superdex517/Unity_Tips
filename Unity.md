@@ -3,3 +3,43 @@
 #### <unity webGL 텍스트 깨지는 현상 고치는법>
 
 #### <모바일 빌드시 프로파일러 사용법>
+
+
+#### <테스트 코드 만드는 법>
+
+
+#### <AR Foundation 이미지 트래킹 시 주의할점>
+
+        private void OnEnable()
+        {
+            trackedImageManager.trackedImagesChanged += ImageChanged;
+        }
+
+        private void OnDisable()
+        {
+            trackedImageManager.trackedImagesChanged -= ImageChanged;
+        }
+
+        private void ImageChanged(ARTrackedImagesChangedEventArgs eventArgs)
+        {
+            foreach (ARTrackedImage trackedImage in eventArgs.added)
+            {
+                TrackedImage(trackedImage);
+            }
+            foreach (ARTrackedImage trackedImage in eventArgs.updated)
+            {
+                TrackedImage(trackedImage);
+            }
+        }
+
+        private void TrackedImage(ARTrackedImage trackedImage)
+        {
+            if (trackedImage.trackingState != TrackingState.None && trackedImage.trackingState != TrackingState.Limited)
+            {
+
+            }
+            else
+            {
+            
+            }
+        }
