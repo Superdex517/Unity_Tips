@@ -10,6 +10,7 @@
 
 #### <AR Foundation 이미지 트래킹 시 주의할점>
 rackingState.None, TrackingState.Limited 둘다 해주지 않으면 원치않는 오류발생
+참고 유튜브 https://www.youtube.com/watch?v=lVHCU-vyI5Y
 
         private void OnEnable()
         {
