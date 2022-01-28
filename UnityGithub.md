@@ -42,8 +42,9 @@ shadercompiler.exe 관련되서 푸쉬할때 에러가 나는 경우가 있다.
 를 추가하여 로그 파일을 ignore해주면 문제 해결됨
 
 #### <MetaFile 관련>
-프로젝트 버전을 반드시 맞춰줘야함(패치버전까지 맞춰야함)
-Asset serialization을 Force Text로 설정해야함
+- 프로젝트 버전을 반드시 맞춰줘야함(패치버전까지 맞춰야함)
+
+- Asset serialization을 Force Text로 설정해야함
 
 #### <LFS관련>
 100mb 이상 큰 파일은 git lfs사용해야함
