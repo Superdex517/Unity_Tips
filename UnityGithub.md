@@ -124,3 +124,6 @@ echo .DS_Store >> .gitignore
 를 입력해주면 됨
 
 그럼 gitignore 파일에 .DS_Store 가 생김
+
+#### <mac외장하드 접근법>
+/volumes 폴더 하위에 있음
