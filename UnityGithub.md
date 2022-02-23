@@ -48,6 +48,9 @@ shadercompiler.exe 관련되서 푸쉬할때 에러가 나는 경우가 있다.
 
 #### <LFS관련>
 100mb 이상 큰 파일은 git lfs사용해야함
+(참고로 깃허브에서 제공하는 lfs 저장 용량은 1GB이고 이를 초과할 시 
+매달 5달러의 과금을 해야한다. 
+과금을 하기 싫고 프로젝트를 진행하는것이 아니라면 unitypackage파일로 보관하는것이 나을것 같다.)
 
 1. git lfs install (깃 초기화)
 2. git lfs track "*.psd"
