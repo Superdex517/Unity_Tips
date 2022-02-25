@@ -1,5 +1,13 @@
 #### <unity 한글 텍스트 webGL 빌드 방법>
 
+#### <unitypackage파일 연결 끊어졌을때>
+cmd를 관리자권한으로 실행 
+ftype unitypackage="유니티경로\Unity.exe" -openfile "%1"
+assoc .unitypackage=unitypackage
+이 두 명령어 입력하면 됨
+@유니티 경로 ex)C:\Program Files\Unity\Hub\Editor\버전\Editor
+
+
 #### <unity webGL 텍스트 깨지는 현상 고치는법>
 
 #### <모바일 빌드시 프로파일러 사용법>
